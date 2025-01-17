@@ -112,7 +112,7 @@ async function startServer() {
   });
 
   const openai = new OpenAI({
-    apiKey: ''
+    apiKey: process.env.OPENAI_API_KEY || '',
   });
   app.post('/ai', async (req: Request, res: Response):Promise<any> => {
     try {
