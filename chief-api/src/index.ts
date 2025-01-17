@@ -112,7 +112,7 @@ async function startServer() {
   });
 
   const openai = new OpenAI({
-    apiKey: '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'
+    apiKey: ''
   });
   app.post('/ai', async (req: Request, res: Response):Promise<any> => {
     try {
