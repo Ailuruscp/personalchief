@@ -1,0 +1,531 @@
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Bolognese",
+      "mealType": "Dinner",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Spaghetti", "amount": "400g" },
+        { "name": "Ground beef", "amount": "500g" },
+        { "name": "Tomato sauce", "amount": "2 cups" },
+        { "name": "Onion", "amount": "1, diced" },
+        { "name": "Garlic", "amount": "2 cloves, minced" }
+      ],
+      "steps": [
+        "Cook spaghetti according to package instructions.",
+        "In a pan, sauté onions and garlic until soft.",
+        "Add ground beef and cook until browned.",
+        "Pour in tomato sauce and simmer for 20 minutes.",
+        "Serve sauce over spaghetti."
+      ],
+      "image": "spaghetti_bolognese.jpg",
+      "description": "A classic Italian pasta dish with rich tomato and meat sauce."
+    },
+    {
+      "id": 2,
+      "title": "Chicken Caesar Salad",
+      "mealType": "Lunch",
+      "serves": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Romaine lettuce", "amount": "1 head" },
+        { "name": "Grilled chicken breast", "amount": "200g" },
+        { "name": "Caesar dressing", "amount": "1/4 cup" },
+        { "name": "Croutons", "amount": "1 cup" },
+        { "name": "Parmesan cheese", "amount": "2 tbsp, grated" }
+      ],
+      "steps": [
+        "Wash and chop romaine lettuce.",
+        "Slice grilled chicken into strips.",
+        "Toss lettuce with Caesar dressing.",
+        "Top with chicken, croutons, and Parmesan cheese.",
+        "Serve immediately."
+      ],
+      "image": "chicken_caesar_salad.jpg",
+      "description": "A fresh, crunchy salad perfect for a quick lunch."
+    },
+    {
+      "id": 3,
+      "title": "Vegetable Stir Fry",
+      "mealType": "Dinner",
+      "serves": 3,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Mixed vegetables", "amount": "3 cups" },
+        { "name": "Soy sauce", "amount": "3 tbsp" },
+        { "name": "Garlic", "amount": "1 clove, minced" },
+        { "name": "Ginger", "amount": "1 tsp, grated" },
+        { "name": "Sesame oil", "amount": "1 tbsp" }
+      ],
+      "steps": [
+        "Heat sesame oil in a wok or large pan.",
+        "Add garlic and ginger, stir for 30 seconds.",
+        "Add mixed vegetables and stir fry for 5-7 minutes.",
+        "Drizzle with soy sauce and cook for another minute.",
+        "Serve hot with rice or noodles."
+      ],
+      "image": "vegetable_stir_fry.jpg",
+      "description": "A quick and healthy stir fry with fresh vegetables."
+    },
+    {
+      "id": 4,
+      "title": "Pancakes",
+      "mealType": "Breakfast",
+      "serves": 4,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Flour", "amount": "1 cup" },
+        { "name": "Milk", "amount": "1 cup" },
+        { "name": "Egg", "amount": "1" },
+        { "name": "Baking powder", "amount": "1 tsp" },
+        { "name": "Sugar", "amount": "1 tbsp" }
+      ],
+      "steps": [
+        "In a bowl, mix flour, sugar, and baking powder.",
+        "Add milk and egg, whisk until smooth.",
+        "Heat a lightly oiled griddle or pan over medium heat.",
+        "Pour 1/4 cup of batter for each pancake.",
+        "Cook until bubbles form, flip and cook until golden."
+      ],
+      "image": "pancakes.jpg",
+      "description": "Fluffy and delicious pancakes, perfect for breakfast."
+    },
+    {
+      "id": 5,
+      "title": "Grilled Cheese Sandwich",
+      "mealType": "Snack",
+      "serves": 1,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Bread slices", "amount": "2" },
+        { "name": "Cheddar cheese", "amount": "2 slices" },
+        { "name": "Butter", "amount": "2 tbsp" }
+      ],
+      "steps": [
+        "Butter one side of each bread slice.",
+        "Place cheese slices between the unbuttered sides of the bread.",
+        "Heat a pan over medium heat.",
+        "Cook sandwich on each side until golden brown.",
+        "Slice and serve warm."
+      ],
+      "image": "grilled_cheese_sandwich.jpg",
+      "description": "A gooey, cheesy sandwich that’s quick and satisfying."
+    },
+    {
+      "id": 6,
+      "title": "Beef Tacos",
+      "mealType": "Dinner",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Ground beef", "amount": "500g" },
+        { "name": "Taco shells", "amount": "8" },
+        { "name": "Lettuce", "amount": "1 cup, shredded" },
+        { "name": "Cheese", "amount": "1/2 cup, shredded" },
+        { "name": "Salsa", "amount": "1/2 cup" }
+      ],
+      "steps": [
+        "Cook ground beef in a skillet until browned.",
+        "Fill taco shells with beef, lettuce, cheese, and salsa.",
+        "Serve immediately."
+      ],
+      "image": "beef_tacos.jpg",
+      "description": "Mexican-inspired tacos with seasoned beef and fresh toppings."
+    },
+    {
+      "id": 7,
+      "title": "Chocolate Chip Cookies",
+      "mealType": "Dessert",
+      "serves": 12,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Butter", "amount": "1/2 cup" },
+        { "name": "Sugar", "amount": "1/2 cup" },
+        { "name": "Brown sugar", "amount": "1/2 cup" },
+        { "name": "Egg", "amount": "1" },
+        { "name": "Flour", "amount": "1 1/2 cups" },
+        { "name": "Chocolate chips", "amount": "1 cup" }
+      ],
+      "steps": [
+        "Cream butter and sugars together.",
+        "Add egg and mix well.",
+        "Stir in flour and chocolate chips.",
+        "Drop spoonfuls of dough onto a baking sheet.",
+        "Bake at 350°F (175°C) for 10-12 minutes."
+      ],
+      "image": "chocolate_chip_cookies.jpg",
+      "description": "Classic cookies with gooey chocolate chips."
+    },
+    {
+      "id": 8,
+      "title": "Vegetable Soup",
+      "mealType": "Lunch",
+      "serves": 6,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Carrots", "amount": "2, chopped" },
+        { "name": "Celery", "amount": "2 stalks, chopped" },
+        { "name": "Potatoes", "amount": "2, diced" },
+        { "name": "Vegetable broth", "amount": "4 cups" },
+        { "name": "Tomatoes", "amount": "2, diced" }
+      ],
+      "steps": [
+        "In a pot, sauté carrots, celery, and potatoes.",
+        "Add vegetable broth and bring to a boil.",
+        "Add tomatoes and simmer for 20-25 minutes.",
+        "Serve hot."
+      ],
+      "image": "vegetable_soup.jpg",
+      "description": "A hearty and healthy soup for a light lunch."
+    },
+    {
+      "id": 9,
+      "title": "Egg Fried Rice",
+      "mealType": "Lunch",
+      "serves": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Cooked rice", "amount": "2 cups" },
+        { "name": "Eggs", "amount": "2, beaten" },
+        { "name": "Soy sauce", "amount": "2 tbsp" },
+        { "name": "Vegetables", "amount": "1 cup, diced" },
+        { "name": "Oil", "amount": "2 tbsp" }
+      ],
+      "steps": [
+        "Heat oil in a pan and scramble the eggs.",
+        "Add vegetables and cook for 3-5 minutes.",
+        "Mix in the cooked rice and soy sauce.",
+        "Stir fry for 2-3 minutes and serve."
+      ],
+      "image": "egg_fried_rice.jpg",
+      "description": "Quick and simple fried rice with eggs and veggies."
+    },
+    {
+      "id": 10,
+      "title": "BBQ Chicken Wings",
+      "mealType": "Dinner",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Chicken wings", "amount": "1kg" },
+        { "name": "BBQ sauce", "amount": "1/2 cup" },
+        { "name": "Honey", "amount": "2 tbsp" },
+        { "name": "Garlic powder", "amount": "1 tsp" },
+        { "name": "Salt and pepper", "amount": "to taste" }
+      ],
+      "steps": [
+        "Season chicken wings with salt, pepper, and garlic powder.",
+        "Bake in a preheated oven at 375°F (190°C) for 25 minutes.",
+        "Brush with BBQ sauce and honey, then bake for another 10 minutes.",
+        "Serve hot."
+      ],
+      "image": "bbq_chicken_wings.jpg",
+      "description": "Sticky and flavorful chicken wings perfect for dinner."
+    },
+    {
+      "id": 11,
+      "title": "Greek Salad",
+      "mealType": "Lunch",
+      "serves": 3,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Cucumber", "amount": "1, diced" },
+        { "name": "Tomatoes", "amount": "2, diced" },
+        { "name": "Feta cheese", "amount": "1/2 cup, crumbled" },
+        { "name": "Olives", "amount": "1/4 cup" },
+        { "name": "Olive oil", "amount": "2 tbsp" }
+      ],
+      "steps": [
+        "Combine cucumber, tomatoes, feta cheese, and olives in a bowl.",
+        "Drizzle with olive oil and toss to mix.",
+        "Serve chilled."
+      ],
+      "image": "greek_salad.jpg",
+      "description": "A refreshing Mediterranean salad with classic ingredients."
+    },
+    {
+      "id": 12,
+      "title": "French Toast",
+      "mealType": "Breakfast",
+      "serves": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Bread slices", "amount": "4" },
+        { "name": "Eggs", "amount": "2" },
+        { "name": "Milk", "amount": "1/4 cup" },
+        { "name": "Vanilla extract", "amount": "1 tsp" },
+        { "name": "Butter", "amount": "2 tbsp" }
+      ],
+      "steps": [
+        "Whisk eggs, milk, and vanilla in a bowl.",
+        "Dip bread slices into the mixture.",
+        "Cook on a buttered pan over medium heat until golden brown.",
+        "Serve with syrup or powdered sugar."
+      ],
+      "image": "french_toast.jpg",
+      "description": "A sweet and comforting breakfast classic."
+    },
+    {
+      "id": 13,
+      "title": "Classic Burger",
+      "mealType": "Lunch",
+      "serves": 2,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Ground beef", "amount": "400g" },
+        { "name": "Burger buns", "amount": "2" },
+        { "name": "Cheese slices", "amount": "2" },
+        { "name": "Lettuce", "amount": "2 leaves" },
+        { "name": "Tomato", "amount": "1, sliced" }
+      ],
+      "steps": [
+        "Shape ground beef into two patties and season with salt and pepper.",
+        "Cook patties on a grill or pan for 4-5 minutes on each side.",
+        "Assemble burgers with cheese, lettuce, tomato, and condiments."
+      ],
+      "image": "classic_burger.jpg",
+      "description": "A hearty and satisfying burger with all the essentials."
+    },
+    {
+      "id": 14,
+      "title": "Margherita Pizza",
+      "mealType": "Dinner",
+      "serves": 2,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Pizza dough", "amount": "1 ball" },
+        { "name": "Tomato sauce", "amount": "1/2 cup" },
+        { "name": "Mozzarella cheese", "amount": "1 cup, shredded" },
+        { "name": "Fresh basil leaves", "amount": "10" },
+        { "name": "Olive oil", "amount": "1 tbsp" }
+      ],
+      "steps": [
+        "Roll out pizza dough and spread tomato sauce over it.",
+        "Sprinkle mozzarella cheese and place basil leaves on top.",
+        "Bake in a preheated oven at 475°F (245°C) for 10-12 minutes.",
+        "Drizzle with olive oil and serve."
+      ],
+      "image": "margherita_pizza.jpg",
+      "description": "A simple and authentic Italian pizza with fresh ingredients."
+    },
+    {
+      "id": 15,
+      "title": "Banana Smoothie",
+      "mealType": "Breakfast",
+      "serves": 1,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Banana", "amount": "1" },
+        { "name": "Milk", "amount": "1 cup" },
+        { "name": "Honey", "amount": "1 tbsp" },
+        { "name": "Vanilla extract", "amount": "1 tsp" },
+        { "name": "Ice cubes", "amount": "3-4" }
+      ],
+      "steps": [
+        "Blend all ingredients in a blender until smooth.",
+        "Pour into a glass and serve immediately."
+      ],
+      "image": "banana_smoothie.jpg",
+      "description": "A creamy and delicious smoothie to start your day."
+    },
+    {
+      "id": 16,
+      "title": "Tomato Basil Soup",
+      "mealType": "Lunch",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Tomatoes", "amount": "4, diced" },
+        { "name": "Onion", "amount": "1, diced" },
+        { "name": "Garlic", "amount": "2 cloves, minced" },
+        { "name": "Vegetable broth", "amount": "3 cups" },
+        { "name": "Fresh basil", "amount": "1/4 cup, chopped" }
+      ],
+      "steps": [
+        "Sauté onion and garlic in a pot until soft.",
+        "Add tomatoes and cook for 5 minutes.",
+        "Pour in vegetable broth and simmer for 20 minutes.",
+        "Blend the soup until smooth and garnish with basil."
+      ],
+      "image": "tomato_basil_soup.jpg",
+      "description": "A comforting and rich tomato soup with fresh basil."
+    },
+    {
+      "id": 17,
+      "title": "Shrimp Scampi",
+      "mealType": "Dinner",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Shrimp", "amount": "500g, peeled and deveined" },
+        { "name": "Butter", "amount": "1/4 cup" },
+        { "name": "Garlic", "amount": "4 cloves, minced" },
+        { "name": "Lemon juice", "amount": "2 tbsp" },
+        { "name": "Spaghetti", "amount": "400g" }
+      ],
+      "steps": [
+        "Cook spaghetti according to package instructions.",
+        "In a pan, melt butter and sauté garlic until fragrant.",
+        "Add shrimp and cook until pink, about 2-3 minutes per side.",
+        "Stir in lemon juice and toss with spaghetti.",
+        "Serve immediately, garnished with parsley if desired."
+      ],
+      "image": "shrimp_scampi.jpg",
+      "description": "A rich and flavorful shrimp dish served with spaghetti."
+    },
+    {
+      "id": 18,
+      "title": "Quinoa Salad",
+      "mealType": "Lunch",
+      "serves": 4,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Quinoa", "amount": "1 cup" },
+        { "name": "Cucumber", "amount": "1, diced" },
+        { "name": "Cherry tomatoes", "amount": "1 cup, halved" },
+        { "name": "Feta cheese", "amount": "1/2 cup, crumbled" },
+        { "name": "Olive oil", "amount": "2 tbsp" }
+      ],
+      "steps": [
+        "Cook quinoa according to package instructions and let cool.",
+        "Combine quinoa, cucumber, tomatoes, and feta cheese in a bowl.",
+        "Drizzle with olive oil and toss to combine.",
+        "Serve chilled or at room temperature."
+      ],
+      "image": "quinoa_salad.jpg",
+      "description": "A light and nutritious salad with fresh ingredients."
+    },
+    {
+      "id": 19,
+      "title": "Chicken Curry",
+      "mealType": "Dinner",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Chicken breast", "amount": "500g, cubed" },
+        { "name": "Onion", "amount": "1, diced" },
+        { "name": "Coconut milk", "amount": "1 can" },
+        { "name": "Curry powder", "amount": "2 tbsp" },
+        { "name": "Garlic", "amount": "2 cloves, minced" }
+      ],
+      "steps": [
+        "Sauté onion and garlic in a pan until soft.",
+        "Add chicken and cook until no longer pink.",
+        "Stir in curry powder and coconut milk.",
+        "Simmer for 20 minutes and serve with rice."
+      ],
+      "image": "chicken_curry.jpg",
+      "description": "A creamy and aromatic curry perfect for dinner."
+    },
+    {
+      "id": 20,
+      "title": "Avocado Toast",
+      "mealType": "Breakfast",
+      "serves": 1,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Bread slice", "amount": "1" },
+        { "name": "Avocado", "amount": "1/2, mashed" },
+        { "name": "Salt", "amount": "to taste" },
+        { "name": "Pepper", "amount": "to taste" },
+        { "name": "Lemon juice", "amount": "1 tsp" }
+      ],
+      "steps": [
+        "Toast the bread slice until golden.",
+        "Spread mashed avocado over the toast.",
+        "Season with salt, pepper, and lemon juice.",
+        "Serve immediately."
+      ],
+      "image": "avocado_toast.jpg",
+      "description": "A simple and healthy breakfast option."
+    },
+    {
+      "id": 21,
+      "title": "Fish Tacos",
+      "mealType": "Dinner",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "White fish fillets", "amount": "500g" },
+        { "name": "Taco shells", "amount": "8" },
+        { "name": "Cabbage", "amount": "1 cup, shredded" },
+        { "name": "Sour cream", "amount": "1/4 cup" },
+        { "name": "Lime", "amount": "1, cut into wedges" }
+      ],
+      "steps": [
+        "Cook fish fillets in a pan until flaky.",
+        "Assemble tacos with fish, cabbage, and sour cream.",
+        "Serve with lime wedges on the side."
+      ],
+      "image": "fish_tacos.jpg",
+      "description": "Fresh and zesty tacos with tender fish fillets."
+    },
+    {
+      "id": 22,
+      "title": "Chocolate Mousse",
+      "mealType": "Dessert",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Dark chocolate", "amount": "200g" },
+        { "name": "Heavy cream", "amount": "1 cup" },
+        { "name": "Sugar", "amount": "2 tbsp" },
+        { "name": "Eggs", "amount": "2, separated" },
+        { "name": "Vanilla extract", "amount": "1 tsp" }
+      ],
+      "steps": [
+        "Melt chocolate in a heatproof bowl over simmering water.",
+        "Whip cream with sugar until soft peaks form.",
+        "Stir egg yolks and vanilla into melted chocolate.",
+        "Fold whipped cream into the chocolate mixture.",
+        "Chill for at least 2 hours before serving."
+      ],
+      "image": "chocolate_mousse.jpg",
+      "description": "A rich and creamy chocolate dessert."
+    },
+    {
+      "id": 23,
+      "title": "Caprese Salad",
+      "mealType": "Lunch",
+      "serves": 2,
+      "difficulty": "Easy",
+      "ingredients": [
+        { "name": "Tomatoes", "amount": "2, sliced" },
+        { "name": "Mozzarella cheese", "amount": "200g, sliced" },
+        { "name": "Fresh basil leaves", "amount": "10" },
+        { "name": "Olive oil", "amount": "2 tbsp" },
+        { "name": "Balsamic glaze", "amount": "1 tbsp" }
+      ],
+      "steps": [
+        "Arrange tomato and mozzarella slices alternately on a plate.",
+        "Add basil leaves between the slices.",
+        "Drizzle with olive oil and balsamic glaze.",
+        "Serve immediately."
+      ],
+      "image": "caprese_salad.jpg",
+      "description": "A classic Italian salad with simple and fresh ingredients."
+    },
+    {
+      "id": 24,
+      "title": "Stuffed Bell Peppers",
+      "mealType": "Dinner",
+      "serves": 4,
+      "difficulty": "Medium",
+      "ingredients": [
+        { "name": "Bell peppers", "amount": "4, halved and deseeded" },
+        { "name": "Ground beef", "amount": "500g" },
+        { "name": "Rice", "amount": "1 cup, cooked" },
+        { "name": "Tomato sauce", "amount": "1/2 cup" },
+        { "name": "Cheese", "amount": "1 cup, shredded" }
+      ],
+      "steps": [
+        "Preheat oven to 375°F (190°C).",
+        "Mix ground beef, rice, and tomato sauce in a bowl.",
+        "Stuff the mixture into bell pepper halves.",
+        "Top with shredded cheese and bake for 30 minutes."
+      ],
+      "image": "stuffed_bell_peppers.jpg",
+      "description": "Bell peppers stuffed with a hearty beef and rice filling."
+    }
+  ]

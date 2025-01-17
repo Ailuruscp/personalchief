@@ -1,0 +1,32 @@
+{
+  "name": "chief-api",
+  "version": "1.0.0",
+  "description": "the api for the chief project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "author": "ailuruscp",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/mysql": "^2.15.26",
+    "@types/node": "^22.10.5",
+    "express": "^4.21.2",
+    "prisma": "^6.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@prisma/client": "^6.2.1",
+    "cors": "^2.8.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0",
+    "openai": "^4.78.1"
+  }
+}
